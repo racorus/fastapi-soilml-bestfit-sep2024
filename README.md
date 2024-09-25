@@ -33,4 +33,5 @@ docker-compose up -d --build
 ## Test the Prediction Endpoint
 Send a request to the /predict endpoint with the required query parameters:
 http://localhost:80/predict?soil_type=clay&temp=25.0&humid=40.0&ph=6.5&n=10.0&p=15.0&k=20.0&ec=1.0
+https://localhost:80/predict?soiltype=sand&test_temp=27.3&test_humid=60.7&test_PH=3.9&test_N=0&test_P=44&Test_K=36&test_Conductivity=180
 
